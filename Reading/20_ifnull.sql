@@ -1,0 +1,2 @@
+SELECT name, surname, IFNULL(age) AS 'Sin edad' FROM users; --Muestra los valores nulos
+SELECT name, surname, IFNULL(age,0) AS 'Sin edad' FROM users; --Muestra los valores nulos y los sustituye por otro valor otorgado

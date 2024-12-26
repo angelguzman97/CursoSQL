@@ -1,0 +1,1 @@
+SELECT COUNT(age) FROM users HAVING COUNT(age) > 2; --Limita el filtro sobre una sola columna

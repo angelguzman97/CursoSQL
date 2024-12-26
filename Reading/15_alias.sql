@@ -1,0 +1,1 @@
+SELECT name, init_date AS 'fecha' FROM users WHERE name = 'Angel';
