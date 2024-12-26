@@ -1,0 +1,1 @@
+DROP DATABASE test; --Borra la bd
