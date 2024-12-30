@@ -14,3 +14,7 @@ MODIFY COLUMN descripcion VARCHAR(250);
 ALTER TABLE persons8
 DROP COLUMN descripcion;
 
+---Llave foranea 
+alter table users
+add constraint fk_companies
+foreign key(company_id) references companies(company_id);
